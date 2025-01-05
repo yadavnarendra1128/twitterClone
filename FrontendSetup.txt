@@ -1,0 +1,37 @@
+(Vite installation)
+
+npm create vite@latest
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+-tailwind config
+
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+-in index.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+(dependencies installation)
+
+npm i axios react-router-dom react-redux @reduxjs/toolkit
+
+
+(error fixing)
+
+Error setup 
+elsint congif
+
+rules: 
+      "no-unused-vars": "off","react/prop-types": "off",
+    
+
+
